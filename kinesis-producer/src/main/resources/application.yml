@@ -1,0 +1,12 @@
+server:
+  port: 8090
+
+
+kinesis:
+  endpoint: ${KINESIS_ENDPOINT:localhost}
+  port: ${KINESIS_PORT:4568}
+  useSsl: ${USE_SSL:false}
+  awsAccessKey: ${KINESIS_AWS_ACCESS_KEY:abc}
+  awsSecretKey: ${KINESIS_AWS_SECRET_KEY:bca}
+  awsRegion: ${KINESIS_AWS_REGION:us-west-1}
+  streamName: ${KINESIS_STREAM_NAME:SampleKinesisStream}

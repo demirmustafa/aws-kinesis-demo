@@ -1,0 +1,49 @@
+**/native.zip
+
+**/rebel.xml
+**/rebel.xml*
+
+/RemoteSystemsTempFiles/
+/Servers/
+.metadata/
+
+#SVN Props
+*.svn
+*.class
+*.log
+*.out
+**/*.out
+
+.cache/
+.history/
+.lib/
+dist/*
+**/*.class
+
+### MacOSX ###
+.DS_Store
+**/.DS_Store
+
+### Maven ###
+target
+target/
+.m2/
+**/target
+**/.m2
+
+### IntelliJ IDEA ###
+.idea*
+*.iws
+*.iml
+*.ipr
+**/.idea/
+**/*.iml
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+

@@ -1,0 +1,11 @@
+server:
+  port: 9090
+
+consumer:
+  awsAccessKey: ${KINESIS_AWS_ACCESS_KEY:abc}
+  awsSecretKey: ${KINESIS_AWS_SECRET_KEY:bca}
+  kinesisEndpoint: ${KINESIS_ENDPOINT:https://localhost:4568}
+  kinesisStreamName: ${KINESIS_STREAM_NAME:SampleKinesisStream}
+  dynamoDBEndpoint: ${DYNAMODB_ENDPOINT:https://localhost:4569}
+  platform: ${CONSUMER_PLATFORM:LOCAL}
+  appName: ${CONSUMER_APP_NAME:SampleKinesisConsumerApp}
