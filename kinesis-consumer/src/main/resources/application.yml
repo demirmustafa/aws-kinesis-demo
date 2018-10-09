@@ -1,5 +1,5 @@
 server:
-  port: 9090
+  port: 8070
 
 consumer:
   awsAccessKey: ${KINESIS_AWS_ACCESS_KEY:abc}
