@@ -11,7 +11,7 @@
 
     <modules>
         <module>core</module>
-        <module>kinesis-producern</module>
+        <module>kinesis-producer</module>
         <module>kinesis-consumer</module>
     </modules>
 
