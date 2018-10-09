@@ -83,8 +83,7 @@
                                     <descriptorRef>artifact</descriptorRef>
                                 </assembly>
                                 <cmd>
-                                    <shell>java -Dcom.amazonaws.sdk.disableCertChecking=true -Dcom.amazonaws.sdk.disableCbor=1 -jar maven/*.jar
-                                    </shell>
+                                    <shell>java -Dcom.amazonaws.sdk.disableCertChecking=true -Dcom.amazonaws.sdk.disableCbor=1 -jar maven/*.jar</shell>
                                 </cmd>
                                 <ports>
                                     <port>8070</port>
